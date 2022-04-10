@@ -1,0 +1,23 @@
+<div class="newArrivalsContainer">
+    <h1>New Arrivals</h1>
+  
+    <div class="row g-0">
+      <div class="col-12 col-lg-6" v-for="bookDetail in newArrivals">
+          <div class="newArrivalsItem d-flex align-items-center">
+                <div class="bookImage">
+                  <img :src="bookDetail.image" :alt="bookDetail.title + ' by ' + bookDetail.author" />
+                </div>
+              <div class="bookInfo">
+                <h6 class="bookCategory"><strong>{{ bookDetail.category }}</strong></h6>
+                <h2 class="bookTitle">{{ bookDetail.title }}</h2>
+                <div class="bookAuthor">{{ bookDetail.author }}</div>
+                <p class="bookDescription">{{ bookDetail.description }}</p>
+                <p class="bookPrice">€ {{ bookDetail.price }}</p>
+                <button @click="addToCart(bookDetail)" class="btn btn-cta" type="button">Add to basket</button>
+              </div>
+            </div>
+      </div>
+  
+  
+    </div>
+  </div>

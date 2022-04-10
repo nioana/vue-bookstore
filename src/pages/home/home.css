@@ -1,0 +1,8 @@
+.homeContainer {
+    background-image: url('../../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100vw;
+    position: relative;
+}

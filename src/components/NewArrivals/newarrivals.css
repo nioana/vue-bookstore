@@ -1,0 +1,59 @@
+.newArrivalsContainer {
+    margin-top: 5rem;
+}
+
+.newArrivalsContainer h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    margin-bottom: 2.5rem;
+    color: #fbfbf0;
+    text-shadow: 2px 2px 5px #404040;
+}
+
+.newArrivalsItem {
+    background-color: rgba(0, 0, 0, .8);
+    max-width: 90%;
+    margin: auto;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px){
+    .newArrivalsItem {
+        flex-flow: column;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .bookCategory {
+        margin-top: 1rem;
+    }
+}
+
+.bookInfo {
+    color: #fbfbf0;
+    text-align: left;
+    padding-left: 2rem;
+
+}
+
+.bookImage img {
+    max-height: 400px;
+}
+
+.bookPrice {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #FF5733;
+}
+
+.btn-cta {
+    background-color: #32CD32;
+    color: #fff;
+    font-weight: 800;
+}
+
+.btn-cta:hover {
+    background-color: #228B22;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="homePageTest"
+    errors="1" failures="0" hostname="" id="" package="homePageTest" skipped="1"
+    tests="1" time="0.1210" timestamp="">
+  
+    <testcase name="tests if homepage is loaded" classname="homePageTest" time="0.1210" assertions="0">
+    <error message="Error while running &#34;navigateTo&#34; command: [WebDriverError] Unable to navigate to url http://localhost:3000: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: headless chrome=100.0.4896.75)" type="error"><![CDATA[
+    Error
+    at DescribeInstance.&lt;anonymous&gt; (/Users/ioananegrea/Desktop/vue-bookstore/test/e2e/homePageTest.js:5:10)
+    at Context.call (/Users/ioananegrea/Desktop/vue-bookstore/node_modules/nightwatch/lib/testsuite/context.js:430:35)
+    at TestCase.run (/Users/ioananegrea/Desktop/vue-bookstore/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    at Runnable.__runFn (/Users/ioananegrea/Desktop/vue-bookstore/node_modules/nightwatch/lib/testsuite/index.js:690:80)
+    at Runnable.run (/Users/ioananegrea/Desktop/vue-bookstore/node_modules/nightwatch/lib/testsuite/runnable.js:126:21)
+    at TestSuite.createRunnable (/Users/ioananegrea/Desktop/vue-bookstore/node_modules/nightwatch/lib/testsuite/index.js:797:33)
+    at TestSuite.handleRunnable (/Users/ioananegrea/Desktop/vue-bookstore/node_modules/nightwatch/lib/testsuite/index.js:802:33)
+    at /Users/ioananegrea/Desktop/vue-bookstore/node_modules/nightwatch/lib/testsuite/index.js:690:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (/Users/ioananegrea/Desktop/vue-bookstore/node_modules/nightwatch/lib/runner/test-runners/default.js:73:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       WebDriverError: Error while running &#34;navigateTo&#34; command: [WebDriverError] Unable to navigate to url http://localhost:3000/test_render/: unknown error: net::ERR_CONNECTION_REFUSED
+   (Session info: headless chrome=100.0.4896.75)
+   
+ WebDriverError: Error while running &#34;navigateTo&#34; command: [WebDriverError] Unable to navigate to url http://localhost:3000: unknown error: net::ERR_CONNECTION_REFUSED
+   (Session info: headless chrome=100.0.4896.75)
+       at DescribeInstance.&lt;anonymous&gt; (/Users/ioananegrea/Desktop/vue-bookstore/test/e2e/homePageTest.js:5:10)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="adds 2 volumes of &#34;Rhinoceros and Other Plays&#34; to cart" classname="homePageTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
